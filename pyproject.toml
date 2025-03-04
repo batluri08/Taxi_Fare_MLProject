@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "taxi-project-bhumi"
+version = "0.1.0"
+description = ""
+authors = ["Bhumika0821 <91681477+Bhumika0821@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "taxi_project_bhumi"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+notebook = "^7.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
